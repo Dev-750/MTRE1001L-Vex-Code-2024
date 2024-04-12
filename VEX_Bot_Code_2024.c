@@ -33,7 +33,7 @@
 
 //const int c = 15.04;
 
-/*
+
 int rev(d)
 {
 	int r = d/c;
@@ -43,7 +43,7 @@ int rev(d)
 
 void shake_bot()
 {
-
+	forward(1
 }
 
 void forward(eCount)
@@ -58,7 +58,7 @@ void forward(eCount)
 	motor[leftMotor] = 0;
 	motor[rightMotor] = 0;
 }
-*/
+
 
 
 //+++++++++++++++++++++++++++++++++++++++++++++| MAIN |+++++++++++++++++++++++++++++++++++++++++++++++
@@ -67,10 +67,10 @@ task main ()
 
 //++++++++++++++++++++++++++++++++++++++++++| AUTONOMOUS |++++++++++++++++++++++++++++++++++++++++++++
 
-/*
+
  eCount = rev(30);
  forward(eCount);
-*/
+
 
 //++++++++++++++++++++++++++++++++++++++++| MANUAL CONTROL |++++++++++++++++++++++++++++++++++++++++++
 
@@ -139,15 +139,15 @@ task main ()
 			motor[wristServo] = 0;
 		}
 	// Shake Motion
-		/*if(vexRT[Btn7D] == 1)
+		if(vexRT[Btn7D] == 1)
 		{
-			//shake_bot();
+			shake_bot();
 		}
 		else
 		{
 			motor[leftMotor] = 0;
 			motor[rightMotor] = 0;
-		}*/
+		}
 	}
 }
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

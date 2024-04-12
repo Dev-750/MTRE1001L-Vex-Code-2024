@@ -13,8 +13,6 @@
 | Activate Intake | 8U |
 | Shake Bot Back-Forth | 8D |
 
----
-
 # Functions to Include
 - [ ] Convert Distance to revolutions
 - [ ] Move forward

@@ -25,7 +25,15 @@ int rev(d)
 // Shake to eject sample tubes
 void shake_bot()
 {
-	forward(1
+	while(vexRT[Btn8D] == 1)
+	{
+		motor[leftMotor] = 63;
+		motor[rightMotor] = 63;
+		wait(1);
+		motor[leftMotor] = 63;
+		motor[rightMotor] = 63;
+		wait(1);
+	}
 }
 
 // Move bot forward

@@ -84,7 +84,7 @@ task main()
 {
 //-------Autonomous-------
 	//turn on intake motors
-	motor[intakemotor] = -127;
+	motor[intakemotor] = 127;
 	//forward - to P1
 	move(x,x);
 	//rotate right - on P1
@@ -123,6 +123,8 @@ task main()
 	move(0.94,-0.94);
 	//forward - to P10
 	move(x,x);
+	//turn off intake motors
+	motor[intakemotor] = 0;
 }
 
 ```
